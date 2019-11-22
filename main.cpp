@@ -16,7 +16,6 @@ void testFunc()
     current_date_time = QDateTime::currentDateTime();
     current_date =current_date_time.toString("yyyy.MM.dd hh:mm:ss.zzz");
 
-
     QString path = "D:\\test.txt";
     QProcess *program = new QProcess();
     program->start("notepad " + path);
