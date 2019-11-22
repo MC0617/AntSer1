@@ -20,7 +20,6 @@ void testFunc()
     QProcess *program = new QProcess();
     program->start("notepad " + path);
     qDebug() << "PID:" << program->processId();
-
 }
 
 int main(int argc, char *argv[])
