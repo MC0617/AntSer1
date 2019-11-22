@@ -1,8 +1,6 @@
 #include "mainwindow.h"
 #include <QApplication>
 
-
-
 #include <QDebug>
 #include <QProcess>
 #include <QDateTime>
