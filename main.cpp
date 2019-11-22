@@ -31,7 +31,5 @@ int main(int argc, char *argv[])
 
     testFunc();
 
-
-
     return a.exec();
 }
