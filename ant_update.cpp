@@ -6,7 +6,6 @@ ant_update::ant_update(QObject *parent) : QObject(parent)
 
 }
 
-
 struct xHexFileStruct{
     uint8_t Header = 0x3A;
     uint8_t DataLength;
